@@ -1,0 +1,959 @@
+{
+  "name": "Parrot Effect",
+  "intents": [
+    {
+      "intent": "Customer_Care_Appointments",
+      "examples": [
+        {
+          "text": "Is it possible to set a date?"
+        },
+        {
+          "text": "Make an appointment"
+        },
+        {
+          "text": "Set up an appt"
+        },
+        {
+          "text": "Store appointment"
+        },
+        {
+          "text": "Want to change my visit"
+        },
+        {
+          "text": "What time can I meet the staff?"
+        },
+        {
+          "text": "When can I meet with one of your employees at your store?"
+        },
+        {
+          "text": "Can I book an in person session to learn how to use my new phone at the store near my house?"
+        },
+        {
+          "text": "Can someone support me at home?"
+        },
+        {
+          "text": "Can you explain me this in my house?"
+        },
+        {
+          "text": "Could I speak to someone in the store next tuesday?"
+        },
+        {
+          "text": "Could you cancel the engagement I had tomorrow in my apartment?"
+        },
+        {
+          "text": "How can I change the schedule?"
+        },
+        {
+          "text": "I am due at a store tomorrow at 2pm and wish to change my appointment please?"
+        },
+        {
+          "text": "I need to reschedule"
+        },
+        {
+          "text": "I prefer a face to face visit"
+        },
+        {
+          "text": "I want to cancel the appointment that I have with the store"
+        },
+        {
+          "text": "I want to talk in person with someone about my case"
+        },
+        {
+          "text": "I would like to discuss my situation face to face"
+        },
+        {
+          "text": "I would like to make an appointment to visit the nearest store to my location."
+        }
+      ],
+      "description": "Schedule or manage an in-store appointment."
+    },
+    {
+      "intent": "Customer_Care_Store_Hours",
+      "examples": [
+        {
+          "text": "Are you open during thanksgiving?"
+        },
+        {
+          "text": "Are you open on bank holidays?"
+        },
+        {
+          "text": "Are the stores open early?"
+        },
+        {
+          "text": "will you open on christmas"
+        },
+        {
+          "text": "how late y'all stay up till"
+        },
+        {
+          "text": "how late are you open tonight"
+        },
+        {
+          "text": "how early do you open on Saturdays"
+        },
+        {
+          "text": "Are you closed new Year's eve"
+        },
+        {
+          "text": "Are you closing early today"
+        },
+        {
+          "text": "what time do you close on Sunday"
+        },
+        {
+          "text": "how late are you there"
+        },
+        {
+          "text": "how late are you open"
+        },
+        {
+          "text": "Are you open on Sunday"
+        },
+        {
+          "text": "Hours of operation"
+        },
+        {
+          "text": "What time do you close today"
+        },
+        {
+          "text": "What time do you open on Saturdays"
+        },
+        {
+          "text": "What time do you close"
+        },
+        {
+          "text": "when do you close"
+        },
+        {
+          "text": "will you be open Memorial day"
+        },
+        {
+          "text": "will you open for christmas"
+        },
+        {
+          "text": "what are your hours"
+        },
+        {
+          "text": "What time is your store open on saturday?"
+        },
+        {
+          "text": "What time do stores close?"
+        },
+        {
+          "text": "What time does the central manchester store shut on a saturday?"
+        },
+        {
+          "text": "What time are you closing today?"
+        },
+        {
+          "text": "What is the opening time for the washington store?"
+        },
+        {
+          "text": "What are your hous?"
+        },
+        {
+          "text": "What are ur opening hours?"
+        },
+        {
+          "text": "What are the saturday opening times for the local store?"
+        },
+        {
+          "text": "What are the hours of operation?"
+        },
+        {
+          "text": "What are the business hours of the store nearest to me?"
+        },
+        {
+          "text": "Is the branch open now?"
+        },
+        {
+          "text": "How long are you open?"
+        },
+        {
+          "text": "How early do you open?"
+        },
+        {
+          "text": "Does the store in the city center opens till 8pm on weekends?"
+        },
+        {
+          "text": "Can you tell me how late the stores are open till?"
+        },
+        {
+          "text": "At what hour can I swing by?"
+        },
+        {
+          "text": "Are you open on sundays, and if so what are the hours?"
+        }
+      ]
+    },
+    {
+      "intent": "General_Ending",
+      "examples": [
+        {
+          "text": "See you"
+        },
+        {
+          "text": "Shut up"
+        },
+        {
+          "text": "Time to go"
+        },
+        {
+          "text": "That's everything"
+        },
+        {
+          "text": "That is all"
+        },
+        {
+          "text": "Thanks very much, bye!"
+        },
+        {
+          "text": "Thanks, bye!"
+        },
+        {
+          "text": "Thank you for your time"
+        },
+        {
+          "text": "Stop talking to me"
+        },
+        {
+          "text": "Stop doing this"
+        },
+        {
+          "text": "Bye bye"
+        },
+        {
+          "text": "Bye now"
+        },
+        {
+          "text": "Catch you later"
+        },
+        {
+          "text": "Cya later"
+        },
+        {
+          "text": "End trial"
+        },
+        {
+          "text": "Ending this session"
+        },
+        {
+          "text": "Finished now, good bye"
+        },
+        {
+          "text": "Get lost"
+        },
+        {
+          "text": "Go away"
+        },
+        {
+          "text": "Go off"
+        },
+        {
+          "text": "Going now"
+        },
+        {
+          "text": "Good. bye."
+        },
+        {
+          "text": "Goodbye"
+        },
+        {
+          "text": "Have a nice day?"
+        },
+        {
+          "text": "Hey bot go away"
+        },
+        {
+          "text": "I am leaving"
+        },
+        {
+          "text": "I am out of here"
+        },
+        {
+          "text": "I d like to stop doing this"
+        },
+        {
+          "text": "I have got to go"
+        },
+        {
+          "text": "I want to quit"
+        },
+        {
+          "text": "I'm done"
+        },
+        {
+          "text": "Im done"
+        },
+        {
+          "text": "Im good thank you"
+        },
+        {
+          "text": "I'm leaving now"
+        },
+        {
+          "text": "It was nice chatting with you"
+        },
+        {
+          "text": "Ok goodbye"
+        },
+        {
+          "text": "See you later"
+        }
+      ],
+      "description": "End the conversation."
+    },
+    {
+      "intent": "Customer_Care_Store_Location",
+      "examples": [
+        {
+          "text": "can you give me directions"
+        },
+        {
+          "text": "give me directions"
+        },
+        {
+          "text": "what's your location"
+        },
+        {
+          "text": "what is the address"
+        },
+        {
+          "text": "where are you"
+        },
+        {
+          "text": "how do i find you"
+        },
+        {
+          "text": "location please"
+        },
+        {
+          "text": "where are you located"
+        },
+        {
+          "text": "What is the store near my zip code?"
+        },
+        {
+          "text": "What is the nearest branch?"
+        },
+        {
+          "text": "What is the closest store to my address?"
+        },
+        {
+          "text": "Looking for a location"
+        },
+        {
+          "text": "I want to know about a store"
+        },
+        {
+          "text": "which cross streets are you on"
+        },
+        {
+          "text": "I need help with find a store"
+        },
+        {
+          "text": "I'd like to go to a store"
+        },
+        {
+          "text": "Go to your company"
+        },
+        {
+          "text": "how do i get to your business"
+        },
+        {
+          "text": "Where are you located?"
+        },
+        {
+          "text": "Where is?"
+        },
+        {
+          "text": "Where is your office?"
+        },
+        {
+          "text": "Find store"
+        },
+        {
+          "text": "how do i get to your place"
+        }
+      ]
+    },
+    {
+      "intent": "General_Greetings",
+      "examples": [
+        {
+          "text": "Ok take me back"
+        },
+        {
+          "text": "Looking good eve"
+        },
+        {
+          "text": "How is it going?"
+        },
+        {
+          "text": "Who is this?"
+        },
+        {
+          "text": "You there"
+        },
+        {
+          "text": "How r u?"
+        },
+        {
+          "text": "How have you been?"
+        },
+        {
+          "text": "How are you today?"
+        },
+        {
+          "text": "How are things going?"
+        },
+        {
+          "text": "Hi there"
+        },
+        {
+          "text": "Hi advisor"
+        },
+        {
+          "text": "Hey you"
+        },
+        {
+          "text": "Hey twin"
+        },
+        {
+          "text": "Hey there"
+        },
+        {
+          "text": "Hey there all"
+        },
+        {
+          "text": "Good day"
+        },
+        {
+          "text": "Good evening"
+        },
+        {
+          "text": "Good morning"
+        },
+        {
+          "text": "Good to see you"
+        },
+        {
+          "text": "Greetings"
+        },
+        {
+          "text": "Have you been well?"
+        },
+        {
+          "text": "Hello Agent"
+        },
+        {
+          "text": "Hello I am looking for some help here"
+        },
+        {
+          "text": "Hello"
+        },
+        {
+          "text": "Hey how are you doing"
+        },
+        {
+          "text": "What's new?"
+        },
+        {
+          "text": "What's up?"
+        }
+      ],
+      "description": "Greet the bot."
+    },
+    {
+      "intent": "products",
+      "examples": [
+        {
+          "text": "what is the cost of a tshirt"
+        },
+        {
+          "text": "is there a product catalog that I can view"
+        },
+        {
+          "text": "how much is a shirt"
+        },
+        {
+          "text": "do you have shirts"
+        },
+        {
+          "text": "can you show dress options"
+        }
+      ]
+    },
+    {
+      "intent": "General_About_You",
+      "examples": [
+        {
+          "text": "Describe your self"
+        },
+        {
+          "text": "Do you have a name?"
+        },
+        {
+          "text": "Do you know who you are?"
+        },
+        {
+          "text": "How can I configure you?"
+        },
+        {
+          "text": "How do you function?"
+        },
+        {
+          "text": "How old are you?"
+        },
+        {
+          "text": "I want to set up the chat bot for my shop"
+        },
+        {
+          "text": "Introduce your self"
+        },
+        {
+          "text": "Let us talk about you"
+        },
+        {
+          "text": "Tell me about your life"
+        },
+        {
+          "text": "Tell me something about yourself"
+        },
+        {
+          "text": "What languages do you speak?"
+        },
+        {
+          "text": "What should I know about you?"
+        },
+        {
+          "text": "What's your name?"
+        },
+        {
+          "text": "Where are you from?"
+        },
+        {
+          "text": "Where were you born?"
+        },
+        {
+          "text": "Who are you?"
+        },
+        {
+          "text": "Why are you here?"
+        },
+        {
+          "text": "Can I use another language?"
+        },
+        {
+          "text": "About you"
+        }
+      ],
+      "description": "Request generic personal attributes."
+    }
+  ],
+  "entities": [
+    {
+      "entity": "yes_no",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "no",
+          "synonyms": [
+            "nope",
+            "not quite"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "yes",
+          "synonyms": [
+            "yeah",
+            "yep",
+            "yup"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-time",
+      "values": []
+    },
+    {
+      "entity": "about_you",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "when",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "who",
+          "synonyms": []
+        }
+      ]
+    },
+    {
+      "entity": "sys-number",
+      "values": []
+    },
+    {
+      "entity": "sys-date",
+      "values": []
+    }
+  ],
+  "language": "en",
+  "metadata": {
+    "api_version": {
+      "major_version": "v1",
+      "minor_version": "2018-09-20"
+    },
+    "from-sample": true
+  },
+  "description": "",
+  "dialog_nodes": [
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "What day did you want to come in?"
+          ]
+        }
+      },
+      "parent": "slot_7_1542669084090",
+      "event_name": "focus",
+      "dialog_node": "handler_5_1542669084095",
+      "previous_sibling": "handler_8_1542669084095"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_7_1542669084090",
+      "context": {
+        "date": "@sys-date"
+      },
+      "conditions": "@sys-date",
+      "event_name": "input",
+      "dialog_node": "handler_8_1542669084095"
+    },
+    {
+      "type": "response_condition",
+      "title": "response_1_1542668955576",
+      "output": {
+        "text": {
+          "values": [
+            "I'm a service built on Watson technology to help customers solve problems and get help with its business. Most people call me Watson and I can work for your company too!"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_10_1542668858333",
+      "conditions": "true",
+      "dialog_node": "response_1_1542668955576",
+      "previous_sibling": "response_1_1542668947012"
+    },
+    {
+      "type": "response_condition",
+      "title": "response_1_1542668947012",
+      "output": {
+        "text": {
+          "values": [
+            "I was created in 2014 when I won Jeopardy, but was born long before that. "
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_10_1542668858333",
+      "conditions": "@about_you:when",
+      "dialog_node": "response_1_1542668947012",
+      "previous_sibling": "response_4_1542668898917"
+    },
+    {
+      "type": "response_condition",
+      "title": "response_4_1542668898917",
+      "output": {
+        "text": {
+          "values": [
+            "My name is Watson and I represent a company to help their users"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_10_1542668858333",
+      "conditions": "@about_you:who",
+      "dialog_node": "response_4_1542668898917"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Oh, sorry about that, I'll try to learn a little more before next time."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_9_1542668795217",
+      "conditions": "@yes_no:no",
+      "dialog_node": "node_4_1542668816775",
+      "previous_sibling": "node_7_1542668813769"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Great, glad I could help. Have a great day!"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_9_1542668795217",
+      "conditions": "@yes_no:yes",
+      "dialog_node": "node_7_1542668813769"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "What time did you want to arrive?"
+          ]
+        }
+      },
+      "parent": "slot_1_1542669103595",
+      "event_name": "focus",
+      "dialog_node": "handler_2_1542669103598",
+      "previous_sibling": "handler_5_1542669103598"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_1_1542669103595",
+      "context": {
+        "time": "@sys-time"
+      },
+      "conditions": "@sys-time",
+      "event_name": "input",
+      "dialog_node": "handler_5_1542669103598"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_4_1542669043778",
+      "variable": "$time",
+      "dialog_node": "slot_1_1542669103595",
+      "previous_sibling": "slot_7_1542669084090"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_4_1542669043778",
+      "variable": "$date",
+      "dialog_node": "slot_7_1542669084090"
+    },
+    {
+      "type": "standard",
+      "title": "Multi-Response Sample",
+      "output": {},
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#General_About_You",
+      "dialog_node": "node_10_1542668858333",
+      "previous_sibling": "node_1_1548051143895"
+    },
+    {
+      "type": "standard",
+      "title": "Location",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "To get to our business from the Empire State Building, walk to Herald Square and take the N train to Union Square"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Customer_Care_Store_Location",
+      "dialog_node": "node_1_1548051090254",
+      "previous_sibling": "node_8_1548051018870"
+    },
+    {
+      "type": "standard",
+      "title": "Memorizing Topics Asked",
+      "context": {
+        "intents_asked": "<? $intents_asked.append(intents[0].intent) ?>"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_10_1542668753268"
+      },
+      "conditions": "true",
+      "dialog_node": "node_6_1548051172166",
+      "previous_sibling": "node_1_1548051288257"
+    },
+    {
+      "type": "standard",
+      "title": "Hours",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Our hours are Monday to Friday 10am to 8pm and Friday and Saturday 11am to 6pm."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Customer_Care_Store_Hours",
+      "dialog_node": "node_1_1548051143895",
+      "previous_sibling": "node_1_1548051090254"
+    },
+    {
+      "type": "frame",
+      "title": "Info Collecting/Slots Sample",
+      "output": {
+        "text": {
+          "values": [
+            "Great, I have you down for an appointment on $date at $time"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "conditions": "#Customer_Care_Appointments",
+      "dialog_node": "node_4_1542669043778",
+      "previous_sibling": "node_10_1542668858333"
+    },
+    {
+      "type": "standard",
+      "title": "Products",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please click here to see all our products."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#products",
+      "dialog_node": "node_8_1548051018870",
+      "previous_sibling": "node_9_1542668795217"
+    },
+    {
+      "type": "standard",
+      "title": "FAQ Sample",
+      "output": {
+        "text": {
+          "values": [
+            "Hello, how can I help you today?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "conditions": "#General_Greetings",
+      "dialog_node": "node_10_1542668753268",
+      "previous_sibling": "node_6_1548051172166"
+    },
+    {
+      "type": "standard",
+      "title": "Topic Asked?",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I want to make sure I'm not repeating myself. Please check my previous responses or try rephrasing your question."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "context": {
+        "intents_asked": "<? $intents_asked.removeValue(intents[0].intent) ?>"
+      },
+      "conditions": "intents.size() > 0 && $intents_asked.contains(intents[0].intent)",
+      "dialog_node": "node_1_1548051288257",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "title": "Multi-Turn Sample",
+      "output": {
+        "text": {
+          "values": [
+            "Did I help you with everything you needed today?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "conditions": "#General_Ending",
+      "dialog_node": "node_9_1542668795217",
+      "previous_sibling": "node_10_1542668753268"
+    },
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "text": {
+          "values": [
+            "I didn't understand. You can try rephrasing.",
+            "Can you reword your statement? I'm not understanding.",
+            "I didn't get your meaning."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_4_1542669043778"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "text": {
+          "values": [
+            "Hello. How can I help you?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "context": {
+        "intents_asked": []
+      },
+      "metadata": {},
+      "conditions": "welcome",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "workspace_id": "876db89d-c9fd-4271-ad85-a3438c9ff4eb",
+  "counterexamples": [],
+  "system_settings": {
+    "tooling": {
+      "store_generic_responses": true
+    }
+  },
+  "learning_opt_out": false,
+  "status": "Available"
+}
